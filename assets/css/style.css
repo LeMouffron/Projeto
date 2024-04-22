@@ -165,7 +165,7 @@ p{
 
 .titulo::after{
     content: '';
-    background-color: var(--cor-padrao);
+    background-color: var(--cor-fonte-corpo);
     width: 80px;
     height: 5px;
     border-radius: 5px;
