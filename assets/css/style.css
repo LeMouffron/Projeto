@@ -356,22 +356,26 @@ ul{
 
 /* PAGINAÇÃO */
 .paginacao{
-    margin: 0 auto 80px;
+    margin: 0  75px;
+    display: flex;
+    justify-content: flex-start;
+
 }
+
 .paginacao span{
-width: 40px;
-height: 40px;
-display: inline-block;
-border: 1px solid var(--cor-btn-fonte);
-text-align: center;
-line-height: 40px;
-margin-left: 15px;
-margin-bottom: 50px;
-cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--cor-btn-fonte);
+    text-align: center;
+    line-height: 40px;
+    margin-left: 15px;
+    margin-bottom: 50px;    
+    cursor: pointer;
 }
 
 .paginacao span:hover{
     background-color: var(--cor-fonte-corpo-leve);
+
 }
 
 
