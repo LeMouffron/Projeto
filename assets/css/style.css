@@ -463,6 +463,75 @@ ul{
     cursor: pointer;
 }
 
+/* ---- CARRINHO DE COMPRAS -----*/
+.carrinho-compras{
+    margin: 80px;
+}
+
+.carrinho-compras table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.info-carrinho{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.carrinho-compras table th{
+    background-color: var(--cor-fonte-p);
+    color: var(--cor-fonte);
+    text-align: left;
+    font-weight: normal;
+    padding: 5px;
+}
+
+.desc-produto small{
+    color: var(--cor-btn-fonte);
+}
+
+.carrinho-compras table td{
+    padding: 10px 5px;
+}
+
+.carrinho-compras td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+
+.carrinho-compras td a{
+    color: var(--cor-btn-fonte);
+    font-size: 12px;
+}
+
+.carrinho-compras td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.valor-total{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.valor-total table{
+    border-top: 3px solid var(--cor-btn-fonte);
+    width: 100%;
+    max-width: 445px;
+}
+
+td:last-child{
+    text-align: right;
+}
+
+th:last-child{
+    text-align: right;
+}
+    
+
+
 /* ---- MENU CELULAR -----*/
 @media only screen and (max-width: 800px){
     nav ul{
@@ -534,6 +603,10 @@ ul{
         line-height: 26px;
     }
 
+    .info-carrinho p{
+        display: none;
+    }
+    
 }
 
 
