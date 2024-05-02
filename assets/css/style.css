@@ -529,6 +529,42 @@ td:last-child{
 th:last-child{
     text-align: right;
 }
+
+.quemsomos {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.quemsomos p{
+    color: white;
+}
+
+.sectionempresa {
+    padding: 20px;
+    margin: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.contato-final p{
+    color: var(--cor-fonte);
+    font-size: 12px;
+    text-align: center;
+}
+
+.contato-final img{
+    border-radius: 100%;
+    padding: 0px;
+    margin-left: 10px;
+    border: 5px solid;
+    border-color: var(--cor-fonte);
+}
+
+.titulo-final{
+    color: var(--cor-fonte);
+}
     
 
 
@@ -608,23 +644,7 @@ th:last-child{
     }
     
 }
-    .quemsomos {
-        background-color: #333;
-        color: #fff;
-        padding: 20px;
-        text-align: center;
-    }
 
-    .quemsomos p{
-        color: white;
-    }
-
-    .sectionempresa {
-        padding: 20px;
-        margin: 20px;
-        background-color: #f9f9f9;
-        border-radius: 5px;
-    }
     
 
     
