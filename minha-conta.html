@@ -9,12 +9,12 @@
 </head>
 <body>
     <!-- INICIO HEADER + BANNER -->
-    <div class="banner">      
+    <header class="novoMenu">      
         <div class="container">
             <!-- INICIO NAVEGAÇÃO -->
             <div class="navbar">   
                 <div class="logo">
-                    <a href="index.html"> <img src="assets/img/logo-2.png" alt="CODEGEEEK" width="125px"></a>
+                    <a href="index.html"><img src="assets/img/logo-3.png" alt="CODEGEEEK" width="125px"></a>
                 </div>
                 <nav>
                     <ul id="MenuItens">
@@ -25,38 +25,50 @@
                         <li><a href="minha-conta.html" title="">Minha Conta</a></li>                      
                     </ul>
                 </nav>               
-                <a href="carrinho.html" title="Carrinho"><img src="assets/img/carrinho.png" alt="Carrinho" width="30px" height="30px"></a>
+                <a href="carrinho.html" title="Carrinho"><img src="assets/img/carrinho2.png" alt="Carrinho" width="30px" height="30px"></a>
                 <img src="assets/img/menu.png" alt="Menu" class="menu-celular" onclick="menucelular()">
             </div>
             <!-- FIM NAVEGAÇÃO -->
-    </div>
-    <!-- FIM HEADER + HERO -->
-
-    <!-- INICIO CATEGORIAS -->
-    <section class="categorias">       
-        <div class="corpo-categorias">  
-            <h1 class="titulo-final">Contatos</h1>      
-            <div class="linha">              
-                <div class="contato-final">
-                    <img src="assets/img/cliente-1.png" alt="Carlos Walder">
-                    <p>Carlos Walder, <br> aluno da Coder House</p>
+         </div>    
+    </header>
+    <!-- FIM HEADER -->
+    <!-- INICIO MINHA CONTA -->
+    <section class="minha-conta">
+        <div class="container">
+            <div class="linha">
+                <div class="col-2">
+                    <img src="assets/img/banner-1.png" alt="" width="100%">
                 </div>
 
-                <div class="contato-final">
-                    <a href="https://www.instagram.com/mouffronleandro/"> <img src="assets/img/cliente-2.png" alt="Leandro Mouffron"></a>
-                    <p>Leandro Mouffron,<br> aluno da Coder House</p>
+                <div class="col-2">
+                    <div class="formulario">
+                        <div class="btn-form">
+                            <span onclick="Entrar()">Entrar</span>
+                            <span onclick="Cadastro()">Cadastro</span>
+                            <hr id="Indicador">
+                        </div>
+
+                        <form action="" method="post" id="EntrarPainel">
+                            <input type="email" name="nome" id="" placeholder="E-mail de acesso">
+                            <input type="password" name="nome" id="" placeholder="Digite sua senha">
+                            <button type="submit" name="senEntrar" class="btn">Entrar</button>
+                            <a href="" title="">Esqueceu sua Senha?</a>
+                        </form>
+
+                        <form action="" method="post" id="CadastroSite">
+                            <input type="text" name="nome" id="" placeholder="Nome Completo">
+                            <input type="email" name="nome" id="" placeholder="E-mail de acesso">
+                            <input type="password" name="nome" id="" placeholder="Digite sua senha">
+                            <button type="submit" name="sendCad" class="btn">Cadastre-se</button>
+                        </form>
+                    </div>
                 </div>
 
-                <div class="contato-final">
-                    <img src="assets/img/cliente-3.png" alt="Carlos Fred">
-                    <p>Carlos Frederico,<br> aluno da Coder House</p>
-                </div>
-            </div>           
-         </div>        
+            </div>
+        </div>
     </section>
-    <!-- FIM CATEGORIAS -->      
-                     
-   
+
+    <!-- FIM MINHA CONTA -->   
     <!-- INICIO RODAPE -->
     <footer class="rodape">
         <div class="container">
@@ -105,7 +117,6 @@
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script src="assets/js/app.js"></script>
+    <script src="assets/js/login.js"></script>
 </body>
 </html>
-
